@@ -1,0 +1,60 @@
+
+		body {
+			background-image: url(https://images.template.net/wp-content/uploads/2015/09/06115020/Awesome-Vector-Patern-Free-Download.jpg);
+			border: 3px solid black;
+		}
+
+		h1 {
+			padding: 30px;
+			background-color: #f5f0eb;
+			margin-left: 100px;
+			width: 400px;
+			border: 2px solid black;
+		}
+
+		#game {
+			text-align: center;
+			background: #f5f0eb;
+			margin: 100px;
+			height: 400px;
+			text-decoration-line: inherit;
+			border: 2px solid black;
+			margin-top: 10px;
+		}
+
+		footer {
+			padding: 20px;
+			background-image: url(https://images.template.net/wp-content/uploads/2015/09/06115222/Dark-Floral-Vector-Pattern-For-You.jpg);
+			color: white;
+			text-align: center;
+			margin-top: 200px;
+		}
+
+		@media screen and (max-width: 960px) {
+			h1 {
+				width: 78%;
+				color: white;
+				background-color: #4aaaa5;
+
+			}
+			#game {
+				width: 85%;
+				color: white;
+				background-color: #4aaaa5;
+			}
+
+
+		}
+		@media screen and (max-width: 768px){
+			h1{
+				width: 78%;
+				color: white;
+				background: black;
+			}
+			#game{
+				width: 85%;
+				color: white;
+				background-color: black;
+			}
+		}
+	
