@@ -7,7 +7,7 @@
 		var numGuesses = 9;
 		var guessChoices = [];
 		var computerGuess = computerChoices[Math.floor(Math.random() * computerChoices.length)];
-		
+		console.log(computerGuess);
 		document.onkeyup = function (event) {
 
 			var userGuess = event.key;
